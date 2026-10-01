@@ -1,0 +1,89 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  color: aliceblue;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+}
+
+header h1 {
+  font-size: 2rem;
+  align-items: center;
+  color: #dc3545;
+}
+.digitando{
+    display: flex;
+    color: #dc3545;
+}
+header span{
+  font-size: 2rem;
+  align-items: center;
+  color: #fff;
+}
+header .navegação-primaria {
+    display: flex;
+    gap: 10px;
+}
+header .navegação-primaria li a{
+    padding: 7px;
+    color: #fff;
+    front-size:1.6rem;
+}
+.section-div{
+    background-color: #000;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    gap:60px; 
+    padding: 60px;    
+}
+.section-div div{
+    margin-top: 120px; 
+    align-self: start; 
+    display: grid;
+    gap: 30px;
+}
+.section-div-div h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: #f7f7f7;
+}
+.section-div div a {
+    justify-self: start;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 2px solid #f7f7f7;
+}
+.section-div img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+
+
+      
+
+
+
+
+
